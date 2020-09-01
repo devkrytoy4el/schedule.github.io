@@ -8,28 +8,11 @@
 
 
 
-.main{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    font-size: 25px;
-
+#monday{
+    display: none;
 }
-
 
 td {
     text-align: center; /* Выравниваем текст по центру ячейки */
     font-size: 25px;
-   }
-table {
-    width: 900px; /* Ширина таблицы */
-    height: 500px;
-    border: 1px solid black; /* Рамка вокруг таблицы */
-    margin: auto; /* Выравниваем таблицу по центру окна  */
    }
