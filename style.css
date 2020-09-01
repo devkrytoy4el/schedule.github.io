@@ -12,7 +12,31 @@
     display: none;
 }
 
+#tuesday{
+    display: none;
+}
+
+#wednesday{
+    display: none;
+}
+
+#thursday{
+    display: none;
+}
+
+#friday{
+    display: none;
+}
+
+#saturday{
+    display: none;
+}
+
+#table{
+    display: none;
+}
+
 td {
     text-align: center; /* Выравниваем текст по центру ячейки */
-    font-size: 25px;
+    font-size: 35px;
    }
