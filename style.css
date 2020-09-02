@@ -6,10 +6,6 @@
     text-align: center;
 }
 
-a {
-  text-decoration:none;
-}
-
 #monday{
     display: none;
 }
@@ -41,4 +37,8 @@ a {
 td {
     text-align: center; /* Выравниваем текст по центру ячейки */
     font-size: 35px;
+    a {
+  color: #000 !important;
+  text-decoration: none
+}
    }
