@@ -64,6 +64,10 @@
         <td>11.30 - 12.10</td>
         <td>Русский язык</td>
         </tr>
+        <tr>
+        <td>12.20 - 13.00</td>
+        <td>География</td>
+        </tr>
     </table>
 
     <table id ='thursday'>
@@ -108,7 +112,7 @@
         </tr>
         <tr>
         <td>9.30 - 10.10</td>
-        <td>География</td>
+        <td>Немецкий язык</td>
         </tr>
         <tr>
         <td>10.30 - 11.10</td> 
@@ -121,10 +125,6 @@
         <tr>
         <td>12.20 - 13.00</td>
         <td>Алгебра</td>
-        </tr>
-        <tr>
-        <td>13.10 - 13.40</td>
-        <td>Немецкий язык</td>
         </tr>
     </table>
 
@@ -161,7 +161,7 @@
         </tr>
         <tr>
             <td>9.30 - 10.10</td>
-            <td>География</td>
+            <td>Немецкий язык</td>
             <td>Геометрия</td>
             <td>Литература</td>
             <td>Физическая культура</td>
@@ -195,13 +195,13 @@
             <td>Английский язык</td>
             <td>Русский язык</td>
             <td></td>
-            <td></td>
+            <td>География</td>
             <td></td>
             <td>11.45 - 12.25</td>
         </tr>
         <tr>
             <td>13.10 - 13.40</td>
-            <td>Немецкий язык</td>
+            <td></td>
             <td></td>
             <td>Химия</td>
             <td></td>
@@ -282,7 +282,7 @@
 
     <script type="text/javascript">
     function main() {
-      var nowDate = new Date();
+      var nowDate = new Date(2020,8,19);
       var d = (nowDate.toLocaleString('ru',{weekday: 'short'}));
 
       if (d == 'пн') {
